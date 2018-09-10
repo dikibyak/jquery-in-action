@@ -15,16 +15,15 @@
    <body>
       <script src="../js/jquery-1.11.3.min.js"></script>
       <script>
-         $('<img>',
-         {
-            src: '../images/little.bear.png',
-            alt: 'Little Bear',
-            title:'I woof in your general direction',
-            click: function() {
+         $('<img>', {
+             src: '../images/little.bear.png',
+             alt: 'Test alt',
+             title: 'Test title',
+             click: function() {
                alert($(this).attr('title'));
-            }
-         })
-         .appendTo('body');
+             }
+           }
+         ).appendTo('body');
       </script>
    </body>
 </html>
